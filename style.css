@@ -193,3 +193,121 @@ justify-content: space-between;
 .bottom4 {
     color: white;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  padding-block: 1rem;
+}
+
+.genLayout {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.innerNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-weight: 800;
+  font-size: large;
+  color: rgb(5, 85, 54);
+}
+
+.navItems {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.navItems > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.sign {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.sign > a {
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  border: none;
+  background-color: rgb(5, 85, 54);
+  color: white;
+  border-radius: 5px;
+  width: 150px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(24, 245, 160);
+  transition: background-color 0.3s ease;
+}
+
+/* Section One */
+.secOne {
+  padding-block: 3rem;
+  background-color: rgb(255, 253, 226);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.bannerContent {
+  width: 50%;
+}
+
+.bannerContent > h1 {
+  font-size: 2rem;
+}
+
+.bannerContent > p {
+  text-align: justify;
+  margin-block: 1rem;
+}
+
+.banner-image {
+  border-radius: 25px;
+  background-color: #e3e3e5;
+  width: 30%;
+}
+
+.img1 {
+  height: 100%;
+  width: 100%;
+}
+
+/* Section Two */
+.secTwo {
+  padding-block: 3rem;
+  background-color: white;
+}
+
+.side-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.side-conte
